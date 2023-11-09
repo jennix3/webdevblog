@@ -1,0 +1,47 @@
+hr
+{
+    border: 2px solid #e482ff
+}
+
+p,h1,h2,h3,a {
+  background-color:rgba(255, 192, 230, 0.312);
+  padding: 20px;
+}
+
+body {
+   background-image: url('background.gif');
+    color:rgb(164, 42, 170);
+    line-height: 1.8;
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    height: auto;
+    max-width: 50%;
+    border: 3px dashed #ff9ff2;
+  }
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.textcenter {
+    text-align: center;
+  }
+
+  a {
+    color: hotpink;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(194, 0, 97);
+}
