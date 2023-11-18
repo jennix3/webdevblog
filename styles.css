@@ -42,28 +42,11 @@ img {
     transition: color 0.3s;
 }
 
-a:hover {
-    color: rgb(194, 0, 97);
+.image-container {
+  text-align: center; /* Center the images within the container */
+  margin-top: 20px; /* Add some top margin for spacing */
 }
 
-.album {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.album img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  margin: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-.album img:hover {
-  transform: scale(1.1);
+.image-container img {
+  margin: 5px; /* Add margin around each image for better separation */
 }
