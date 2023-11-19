@@ -23,7 +23,6 @@ h1 {
 img {
     height: auto;
     max-width: 50%;
-    border: 3px dashed #ff9ff2;
   }
   
 .center {
@@ -42,11 +41,10 @@ img {
     transition: color 0.3s;
 }
 
-.image-container {
-  text-align: center; /* Center the images within the container */
-  margin-top: 20px; /* Add some top margin for spacing */
-}
-
-.image-container img {
-  margin: 5px; /* Add margin around each image for better separation */
+@media (max-width: 920px) {
+  .flex-item {
+    flex-grow :inherit;
+    flex-basis :45%;
+    
+  }
 }
